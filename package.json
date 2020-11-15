@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "engines": {
-    "node": "12.16.1"
+    "node": "12.x"
   },
   "scripts": {
     "dev": "nodemon --ignore src/**/*.spec.ts --exec ts-node src/index.ts",
