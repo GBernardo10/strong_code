@@ -1,12 +1,12 @@
 {
   "name": "gerson_ads_a_b_2020",
   "version": "1.0.0",
-  "main": "./dist/src/index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --ignore src/**/*.spec.ts --exec ts-node src/index.ts",
     "build": "./node_modules/typescript/bin/tsc",
-    "start": "node ./dist/src/index.js"
+    "start": "node ."
   },
   "devDependencies": {
     "@types/express": "^4.17.9",
