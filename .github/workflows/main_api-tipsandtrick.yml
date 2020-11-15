@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - "express_static"
+      - "./express_static"
 
 jobs:
   build-and-deploy:
