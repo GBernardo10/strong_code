@@ -11,7 +11,7 @@ router.post("/", async (req, res) => {
 
 router.get("/", async (req, res) => {
   res.json({
-    msg: "OK",
+    msg: "Works",
   });
 });
 
