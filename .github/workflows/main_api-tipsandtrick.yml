@@ -5,10 +5,10 @@ name: Build and deploy Node.js app to Azure Web App - api-tipsandtrick
 
 on:
   push:
-    branches:
-      - main
     paths:
       - "express_static"
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
