@@ -1,7 +1,7 @@
 {
   "name": "gerson_ads_a_b_2020",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/src/index.js",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --ignore src/**/*.spec.ts --exec ts-node src/index.ts",
