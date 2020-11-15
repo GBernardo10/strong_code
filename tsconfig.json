@@ -3,13 +3,16 @@
     "target": "ES6",
     "module": "commonjs",
     "outDir": "./dist",
-    "rootDir": "./",
+    "baseUrl": ".",
+    "sourceMap": true,
     "removeComments": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
-  "exclude": ["./src/*/*.sql"],
-  "compileOnSave": true  
+  "include": ["src/**/*"],
+  "exclude": ["./src/*/*.sql"]
 }
