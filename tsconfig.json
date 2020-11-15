@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "commonjs",
-    "outDir": "./dist",
-    "baseUrl": ".",
+    "outDir": "./api-express-ts/dist",
+    "baseUrl": "./api-express-ts",
     "sourceMap": true,
     "removeComments": true,
     "strict": true,
@@ -13,6 +13,6 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["./src/*/*.sql"]
+  "include": ["./api-express-ts/src/**/*"],
+  "exclude": ["./api-express-ts/src/*/*.sql"]
 }
