@@ -9,4 +9,10 @@ router.post("/", async (req, res) => {
   res.json(user);
 });
 
+router.get("/", async (req, res) => {
+  res.json({
+    msg: "OK",
+  });
+});
+
 export { router };
