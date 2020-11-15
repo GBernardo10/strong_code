@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --ignore src/**/*.spec.ts --exec ts-node src/index.ts",
-    "build": "npx tsc",
+    "build": "./node_modules/typescript/bin/tsc",
     "start": "node ./dist/src/index.js"
   },
   "devDependencies": {
