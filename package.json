@@ -7,7 +7,7 @@
     "node": "12.16.1"
   },
   "scripts": {
-    "dev": "nodemon --watch src/**/*.ts --ignore src/**/*.spec.ts --exec ts-node src/index.ts",
+    "dev": "nodemon --ignore src/**/*.spec.ts --exec ts-node src/index.ts",
     "build": "tsc",
     "start": "node ./dist/src/index.js"
   },
