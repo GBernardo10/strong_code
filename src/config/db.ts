@@ -7,7 +7,7 @@ dotenv();
 const _configuration: config = {
   server: String(process.env.HOST),
   user: String(process.env.USER),
-  port: Number(process.env.PORT),
+  port: Number(process.env.DB_PORT),
   database: String(process.env.DATABASE),
   password: String(process.env.PASSWORD),
   options: {
