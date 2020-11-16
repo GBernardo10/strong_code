@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const msg = "Server Running"
+const msg = "Running !"
 app.get("/", (req, res) =>
   res.json({
     msg
