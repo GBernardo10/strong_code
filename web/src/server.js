@@ -1,9 +1,12 @@
 const express = require("express");
 const app = express();
-const msg = "Running !"
-app.get("/", (req, res) =>
+const msg = "Running !";
+
+app.use(express.static("public"));
+
+app.get("/api", (req, res) =>
   res.json({
-    msg
+    msg,
   })
 );
 
