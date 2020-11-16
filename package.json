@@ -7,7 +7,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node web/src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1"
