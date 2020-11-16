@@ -1,22 +1,12 @@
 {
-  "name": "gerson_ads_a_b_2020",
+  "name": "web",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "engines": {
-    "node": "12"
-  },
   "scripts": {
-    "dev": "nodemon --ignore api-express-ts/src/**/*.spec.ts --exec ts-node api-express-ts/src/index.ts",
-    "build": "./node_modules/typescript/bin/tsc",
     "start": "node src/index.js"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  },
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "kuduscript": "^1.0.17"
+    "express": "^4.17.1"
   }
 }
