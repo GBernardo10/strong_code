@@ -4,11 +4,10 @@
   "engines": {
     "node": "12"
   },
-  "main": "node server/src/app.js",
+  "main": "server/src/index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon server/src/app.js",
-    "start": "node server/src/app.js"
+    "start": "node server/src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -16,5 +15,16 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "description": "[![Portal-tech Actions Status](https://github.com/GBernardo10/strong_code/workflows/portal-tech/badge.svg)](https://github.com/GBernardo10/strong_code/actions)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GBernardo10/strong_code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/GBernardo10/strong_code/issues"
+  },
+  "homepage": "https://github.com/GBernardo10/strong_code#readme"
 }
