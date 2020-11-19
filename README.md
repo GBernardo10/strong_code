@@ -1,0 +1,1 @@
+[![main_portaltech Actions Status](https://github.com/GBernardo10/strong_code/workflows/main_portaltech/badge.svg)](https://github.com/{userName}/{repoName}/actions)
