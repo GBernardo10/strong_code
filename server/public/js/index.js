@@ -3,7 +3,7 @@ function getData() {
     res
       .json()
       .then(
-        (res_json) => (document.getElementById("msg").innerHTML = res_json.msg)
+        (res_json) => (document.getElementById("msg").innerHTML = res_json.data)
       )
   );
 }
