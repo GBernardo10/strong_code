@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const msg = "SERVIDOR RODANDO COM SUCESSOOOOOOO!";
+const msg = "SERVIDOR RODANDO COM SUCESSOOOOOO!";
 
 const path = require("path")
 
