@@ -4,10 +4,10 @@
   "engines": {
     "node": "12"
   },
-  "main": "server/src/index.js",
+  "main": "dash/src/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server/src/index.js"
+    "start": "node dash/src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
